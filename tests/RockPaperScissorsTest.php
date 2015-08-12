@@ -28,7 +28,7 @@
             $result = $test_RockPaperScissors->rpsGame($player1_input, $player2_input);
 
             //Assert
-            $this->assertEquals("Player 1 wins!", $result);
+            $this->assertEquals("Player 2 wins!", $result);
         }
 
         function test_paper_scissors()
@@ -84,7 +84,7 @@
             $result = $test_RockPaperScissors->rpsGame($player1_input, $player2_input);
 
             //Assert
-            $this->assertEquals("Player 2 wins!", $result);
+            $this->assertEquals("Player 1 wins!", $result);
         }
 
         function test_scissors_paper()
