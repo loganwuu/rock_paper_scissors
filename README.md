@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game
 
-##### A game app built with BDD methodology
+##### A game app built using BDD methodology. 8/12/2015
 
 #### By Logan Wu & Ian McKenney
 
@@ -11,7 +11,7 @@ It has both 1-player vs. computer version and two-player version.
 
 PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer
 
-### Specs
+## Specs
 
 1. If player 1 enters Rock and player 2 enters Scissors then Player 1 should win
   * Input: Player 1=Rock / Player 2=Scissors
@@ -40,6 +40,8 @@ PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer
 7. If player 2 enters Paper and player 1 enters Scissors then Player 2 should win
   * Input: Player 2=Paper / Player 1=Scissors
   * Output: Player 1 wins!
+
+8. Same theory works between computer(chosen at random) and one player.
 
 ## Legal
 

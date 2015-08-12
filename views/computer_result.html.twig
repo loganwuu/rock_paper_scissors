@@ -6,9 +6,17 @@
     <body>
         <div class="container">
             <h1>Result:</h1>
-            <h2>{{ result }}</h2>
-            <h4>Player 1 chose: {{ player1_choice }}</h4>
-            <h4>Player 2 chose: {{ player2_choice }}</h4>
+            {% if player_wins is not empty %}
+                <h2>You Win!</h2>
+            {% elseif draw_game is not empty %}
+                <h2>Draw!</h2>
+            {% else %}
+                <h2>Computer Wins!</h2>
+            {% endif %}
+
+            <h4>You chose: {{ player_choice }}</h4>
+            <h4>The computer chose: {{ computer_choice }}</h4>
+
             <form action="/">
                 <button type='submit' class='btn btn-default'>Home</button>
             </form>
