@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Player 2 turn around!</h1>
+            <h3>Player 1 choose Rock, Paper, or Scissors</h3>
+            <form action="/player2" method="post">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <button name="player1" type="submit" value="rock" class="btn btn-lg btn-danger btn-block"><i class="fa fa-hand-rock-o fa-5x"></i></button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button name="player1" type="submit" value="paper" class="btn btn-lg btn-danger btn-block"><i class="fa fa-hand-paper-o fa-5x"></i></button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button name="player1" type="submit" value="scissors" class="btn btn-lg btn-danger btn-block"><i class="fa fa-hand-scissors-o fa-5x"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
