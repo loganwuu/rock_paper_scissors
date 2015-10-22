@@ -1,7 +1,0 @@
-body {
-    background: url("/../images/cover.png") no-repeat top left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
