@@ -43,6 +43,15 @@ PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer
 
 8. Same theory works between computer(chosen at random) and one player.
 
+## Setup
+
+* Open Terminal.
+* Go into the ```web``` directory in ```rock_paper_scissors``` folder in the Terminal.
+* Enter the following command into termianl ```php -S localhost:8000```.
+* Open a web browser and type ```localhost:8000``` into the address bar.
+* Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the rock_paper_scissors project folder on the console by typing in ```composer install``` and ```composer update```.
+
+
 ## Legal
 
 Copyright (c) 2015 **Logan Wu & Ian McKenney**
